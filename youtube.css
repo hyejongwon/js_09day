@@ -1,0 +1,6 @@
+*{margin: 0;padding: 0;box-sizing: border-box}
+ul,li{list-style: none;}
+a{text-decoration: none;color:inherit}
+.container{width: 1200px;margin: auto;}
+.video-list{width: 100%;display:flex}
+.video-item{width:calc(20% - 8px);border:1px solid #ccc;margin: 4px;}
