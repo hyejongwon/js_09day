@@ -17,14 +17,14 @@ const render = () => {
                         <img src=${item.snippet.thumbnails.medium.url} alt="" />
                     </div>
                     <div class="video-txt">
-                        <h2>${item.snippet.channelTitle}</h2>
-                        <h3>${item.snippet.title}</h3>
-                        <p>${item.snippet.description}</p>
+                        <h2> ${item.snippet.title}</h2>
+                        <h3> ${item.snippet.channelTitle}</h3>
                     </div>
                 </div>`
-     })
+     }).join("")
      videoListBox.innerHTML = videoResult;
 }
 
 videoList();
+
 
