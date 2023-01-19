@@ -39,5 +39,11 @@ const render = () => {
 
 videoList();
 searchBtn.addEventListener('click',getSearchVideo)
+searchInput.addEventListener('keydown',(e)=>{
+    if(e.keyCode === 13 ){
+        getSearchVideo();
+    }
+
+})
 
 
